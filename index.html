@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Ejercicio practico HTML básico">
+    <meta name="author" content="Kathy Alderete">
+    <title>Mi Sitio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+            <div class="container">
+                <!-- Izquierda -->
+                <a class="navbar-brand d-flex align-items-center gap-2" href="https://github.com/KathyAlde21"
+                    target="_blank" rel="noopener">
+                    <img src="./assets/img/github.png" alt="GitHub Logo" width="20" height="20" class="icon-github"
+                        loading="lazy">
+                    <span>GitHub</span>
+                </a>
+                <!-- Botón hamburguesa alineado a la derecha -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Abrir menú de navegación">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="py-5 mt-5">
+        <section class="container mb-4">
+            <h1 class="display-5 fw-bold mb-3">Bienvenido a Mi Sitio</h1>
+            <p class="lead mb-0">
+                Este es un sitio de ejemplo para demostrar la estructura básica de una página HTML.
+            </p>
+        </section>
+        <section class="container">
+            <div class="card shadow-sm border-0">
+                <div class="row g-0 align-items-stretch">
+                    <div class="col-md-4"> <img src="./assets/img/gizmo.jpg" class="img-fluid rounded-start" alt="Gizmo"
+                            id="gizmo-mogwai">
+                    </div>
+                    <div class="col-md-8 d-flex align-items-center">
+                        <div class="card-body">
+                            <h2 class="card-title">Recuerda siempre las tres reglas sagradas de los Gremlins:</h2>
+                            <p class="card-text">
+                                ¡no mojes, no expongas a la luz y nunca alimentes después de
+                                medianoche!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="bg-dark text-light fixed-bottom">
+        <div class="container py-2">
+            <div class="d-flex justify-content-center align-items-center gap-3 flex-wrap">
+                <p class="mb-0">&copy; 2026 Kathy Alderete</p>
+                <a class="btn btn-outline-light btn-sm d-flex align-items-center gap-2"
+                    href="https://github.com/KathyAlde21" target="_blank" rel="noopener">
+                    <img src="./assets/img/github.png" alt="GitHub Logo" width="20" height="20" class="icon-github"
+                        loading="lazy">
+                    <span>GitHub</span>
+                </a>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
