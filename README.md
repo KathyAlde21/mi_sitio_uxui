@@ -36,12 +36,37 @@
   <img src="https://img.shields.io/badge/Bootstrap%205-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white">
 </p>
 
+<!-- --------------------------------------------------------- -->
 
 **<h3>📷 Vista previa</h3>**
 
 <p align="center">
   <img src="./assets/img/vista_del_sitio.jpg" alt="Vista previa del sitio de Gizmo" width="80%">
 </p>
+
+<!-- --------------------------------------------------------- -->
+
+**<h3>🎨 Adaptación visual en Figma</h3>**
+
+<p>
+Como complemento del desarrollo en <strong>HTML, CSS y Bootstrap</strong>, realicé una adaptación visual en <strong>Figma</strong> tomando como base la estructura ya construida del sitio.
+Este paso me permitió documentar la propuesta y contrastar su presentación en <strong>versión escritorio</strong> y <strong>versión móvil</strong>.
+</p>
+
+<table align="center">
+  <tr>
+    <td align="center">
+      <img src="./assets/img/readme/web_mi_sitio_pc.jpg" alt="Versión escritorio del sitio Mi Sitio documentada en Figma" width="420">
+      <br>
+      <sub><strong>Versión escritorio</strong></sub>
+    </td>
+    <td align="center">
+      <img src="./assets/img/readme/formato_movil.jpg" alt="Versión móvil del sitio Mi Sitio documentada en Figma" width="250">
+      <br>
+      <sub><strong>Versión móvil</strong></sub>
+    </td>
+  </tr>
+</table>
 
 <!-- --------------------------------------------------------- -->
 
@@ -53,10 +78,12 @@
 - Uniformidad visual en imágenes usando `object-fit`.
 - Ajustes responsive para distintos tamaños de pantalla.
 - Organización clara del contenido en secciones y cards.
+- Documentación visual del diseño en Figma para contrastar la versión desktop y mobile.
 
 <!-- --------------------------------------------------------- -->
 
 **<h3>📁 Estructura del Proyecto:</h3>**
+
 ```bash
 📁 mi_sitio
 ├── 🟧 index.html
@@ -68,6 +95,9 @@
         ├── 🖼️ gizmo.jpg
         ├── 🖼️ github.png
         ├── 🖼️ vista_del_sitio.jpg
+        ├── 📁 readme
+        │   ├── 🖼️ web_mi_sitio_pc.jpg
+        │   └── 🖼️ formato_movil.jpg
         └── 📁 gizmo
             ├── 🖼️ gizmo_dulces.jpg
             ├── 🖼️ gizmo_feliz.webp

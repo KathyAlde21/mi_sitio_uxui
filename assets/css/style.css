@@ -3,19 +3,19 @@ body {
 }
 
 h1 {
-    color: #0a07ce;
+    color: rgb(10, 7, 206);
     font-size: 2.5rem;
     margin-bottom: 20px;
 }
 
 h2 {
-    color: #025411;
+    color: rgb(2, 84, 17);
     font-size: 1.9rem;
     margin-bottom: 15px;
 }
 
 h4 {
-    color: #025411;
+    color: rgb(2, 84, 17);
     font-size: 1.45rem;
     margin-bottom: 15px;
 }
